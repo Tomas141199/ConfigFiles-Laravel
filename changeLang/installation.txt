@@ -1,0 +1,14 @@
+//Toda la descarga e instalacion se lleva acabo en el directorio de la app
+
+//1
+composer	require laraveles/spanish
+
+//2
+php artisan laraveles:install-lang
+
+//3
+Cambiar lenguaje de la App en directorio App/config/app.php line 83
+locale => 'es'
+
+
+
