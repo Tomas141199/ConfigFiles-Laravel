@@ -1,0 +1,10 @@
+Solo hay que usar el método de la clase de paginator e importar su librería en: App\Providers\AppServiceProvider.
+
+
+use Illuminate\Pagination\Paginator;
+ 
+public function boot()
+{
+    Paginator::useBootstrap();
+       
+}
