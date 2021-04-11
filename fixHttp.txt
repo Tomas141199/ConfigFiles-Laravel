@@ -1,0 +1,6 @@
+#Descomentar en 
+App/providers/RouteServiceProvider
+
+#linea 29
+protected $namespace = 'App\\Http\\Controllers';
+
