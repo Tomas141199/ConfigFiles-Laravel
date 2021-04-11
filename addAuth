@@ -1,0 +1,7 @@
+#Habilitar la autenticacion en laravel
+composer require laravel/ui 
+
+#Crear un login y una autenticacion
+php artisan ui:auth
+
+
