@@ -1,0 +1,8 @@
+1.Usando powershell correr: npm install --save-dev tailwindcss laravel-mix-tailwind
+2.Despues de instalar tailwind(creacion del archivo de configuracion): npx tailwindcss init
+3.En webpackwix:
+    .tailwind()
+4.En app.scss:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
